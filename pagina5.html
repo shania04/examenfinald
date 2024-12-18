@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTOS</title>
+    <link rel="stylesheet" href="contactos.css">
+    <link rel="icon" href="imágenes/spotify.png" type="image/x-icon">
+</head>
+<body> 
+    <div class="background">
+        <div class="content">
+            <nav>
+                <ul>
+                    <li><a href="pagina1.html">INICIO</a></li>
+                    <li><a href="pagina2.html">BLOG</a></li>
+                    <li><a href="pagina3.html">GALERÍA</a></li>
+                    <li><a href="pagina4.html">VIDEOS</a></li>
+                    <li><a href="pagina5.html">CONTACTOS</a></li>
+                    <li><a href="pagina6.html">NOSOTROS</a></li>
+                    <li><a href="pagina7.html">DESARROLLADOR</a></li>
+                </ul>
+            </nav>
+            <form name="formulario" method="post" action="">
+                <div>
+                    Nombre <input type="text" name="nombre" required placeholder="Ingrese su nombre" />
+                </div>
+                <div>
+                    Edad <input type="number" name="edad" value="18" min="18" max="55" step="1" required/>
+                </div>
+                <div>
+                    Correo <input type="email" name="correo" required placeholder="Ingrese su correo" />
+                </div>
+                <div>
+                    Celular <input type="tel" minlength="9" placeholder="Ingrese su celular" />
+                </div>
+                <div>
+                    <input type="submit" name="enviar" value="Enviar" />
+                    <input type="reset" name="limpiar" value="Limpiar" />
+                </div>
+                <div id="contenedor">
+                    <h3>Mi Ubicacion</h3>
+                    <p>Lugar donde podemos encontrar ropa que usa Rels B</p>
+                    <p>Direccion: Av.Javier Prado Este 4200</p>
+                    <div id="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31210.67554634325!2d-77.01000593974747!3d-12.08924149163918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c79f5dacafbf%3A0x2aecf92fd4325f0d!2sJockey%20Plaza!5e0!3m2!1ses-419!2spe!4v1731547304958!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>    
+            </form>
+            <div class="social">
+                <a href="#"><img src="imágenes/facebook.jpeg" alt="Facebook"></a>
+                <a href="#"><img src="imágenes/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="imágenes/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="imágenes/tiktok.png" alt="TikTok"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

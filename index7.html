@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RELS B PORTAFOLIO</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo7.css"> 
+    <link rel="icon" href="imágenes/spotify.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+             <img src="imágenes/20976.png" alt="Icono" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container text-center">
+                <img src="imágenes/face.jpg" alt="Tu Foto" class="rounded-circle img-fluid mb-3" style="width: 150px;">
+                <h1 class="display-4">Hola, soy Daniel Heredia</h1>
+                 <p class="lead">Soy un cantante, compositor y productor musical de Mallorca,España</p>
+            </div>
+        </div>
+    </header>
+    <section id="about" class="container my-5">
+        <h2>Sobre Mí</h2>
+        <p>Daniel Heredia Vidal (Palma de Mallorca, 18 de octubre de 1993), más conocido por su nombre artístico Rels B, es un cantante, compositor y productor musical español de rhythm and blues, dancehall, pop latino, hip hop y reguetón. Con nueve producciones musicales publicadas, es considerado como uno de los mayores exponentes de música urbana de España.</p>
+    </section>
+
+    <section id="projects" class="container my-5">
+        <h2>Proyectos</h2>
+        <div id="projectCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imágenes/Sauce Boyz 2 - Eladio Carrion.jpeg" class="d-block w-100" alt="Proyecto 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Proyecto 1</h5>
+                        <p>a new star (1 9 9 3)</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imágenes/descarga.jpeg" class="d-block w-100" alt="Proyecto 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Proyecto 2</h5>
+                        <p>Flakk Daniel's Lp</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imágenes/AfroLOVA' 23 - Rels B.jpeg" class="d-block w-100" alt="Proyecto 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Proyecto 3</h5>
+                        <p>Happy Birthday Flakko</p>
+                    </div>
+                </div>  
+                <div class="carousel-item">
+                    <img src="imágenes/King Flakk - Single de Rels B en Apple Music.jpeg" class="d-block w-100" alt="Proyecto 4">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Proyecto 4</h5>
+                        <p>LA ISLA LP</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#projectCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </section>
+    <section id="testimonials" class="container my-5">
+        <h2>Testimonios de los fans</h2>
+        <blockquote class="blockquote">
+            <p class="mb-0">"RELS B  es un Cantante excepcional, siempre entrega todo de si para satisfacer a su publico y sus albumnes son de mucha calidad."</p>
+            <footer class="blockquote-footer">FANS ENAMORADAS</footer>
+        </blockquote>
+    </section>
+
+    <section id="contact" class="container my-5">
+        <h2>Contacto</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Tu mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="text-center py-4">
+        <p>&copy; Rels b todos los derechos de autor reservados</p>
+        <nav class="menu-secundario"></nav>
+            <div class="social-links">
+                <a href="#"><img src="imágenes/facebook.jpeg" alt="Facebook"></a>
+                <a href="#"><img src="imágenes/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="imágenes/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="imágenes/tiktok.png" alt="TikTok"></a>
+            </div>
+        </article>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

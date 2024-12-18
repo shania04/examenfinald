@@ -1,0 +1,53 @@
+body {
+    background-color:#DBCDF5; /* Color de fondo */
+    font-family:cursive; /* Tipo de letra */
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    color: black; /* Color para encabezados */
+}
+
+.carousel-item img {
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+}
+body {
+    font-family:cursive ;
+}
+.jumbotron {    
+    background-color:#D89BF5;
+}
+
+footer {    
+    background-color:#D89BF5;
+    color:black;
+}
+.icon {
+    width: 80px;
+    display: block;
+    margin: 20px auto;
+}
+
+.social-links {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social-links img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+.carousel{
+    width: 500px;
+}
+h5 {
+    font-size: 3rem;
+    margin-bottom:10%;
+    text-align: center;
+    color: black;
+ }
